@@ -1,0 +1,23 @@
+type,variable,units,step1,step2,step3
+process,batchSize,parts/batch,2,2,2
+process,timeMin_cycle,min,20,1,1
+process,timeMin_setup,min,5,0.5,0.5
+process,timeHr_maintenance,hr/day,1,1,1
+process,timeHr_downtime,hr/day,1,1,1
+process,yieldRate,percent,0.99,0.99,0.99
+operations,dedicated,1/0 (Yes/No),1,1,1
+operations,volumeEmbedded_material1,kg,1,1,1
+operations,volumeEmbedded_material2,kg,0,2,0
+operations,scrapRate_material1,percent,0.01,0.01,0.01
+operations,scrapRate_material2,percent,0,0,0
+operations,electricityUsage_on,kW,1,1,1
+operations,electricityUsage_idle,kW,0.1,0.1,0.1
+operations,toolUse,tools/line,2,2,2
+financial,price_material1,$/kg,1,1,1
+financial,price_material2,$/kg,0,5,0
+financial,fractionalUseLabor,percent,0.9,0.9,0.9
+financial,price_mainMachine,$,1000000,1000000,1000000
+financial,price_auxEquip,$,10000,10000,10000
+financial,price_tooling,$,10000,10000,10000
+financial,toolLife,years,2,2,2
+financial,floorspacePerLine,sq ft,100,100,100

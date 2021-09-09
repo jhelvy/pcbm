@@ -1,0 +1,17 @@
+variable,value,unit
+productionVol_annual,40000,units
+workingDays_annual,240,Days/yr
+dailyHrs_noShift,7,Hr/day
+dailyHrs_unpaidBreaks,1,Hr/day
+dailyHrs_paidBreaks,1.2,Hr/day
+dailyHrs_unplannedDown,0,Hr/day
+dailyHrs_maintenance,0,Hr/day
+directWages,25,$/hr
+price_electricity,0.06,$/kWh
+price_buildingSpace,100,$/sqft
+discountRate,0.12,percent
+recoveryYears_captial,10,Years
+recoveryYears_building,30,Years
+cost_auxEquip,0.1,% of capital
+cost_maintenance,0.1,% other fixed
+cost_overhead,0.3,% other fixed
